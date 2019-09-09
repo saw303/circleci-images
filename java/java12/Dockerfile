@@ -1,6 +1,6 @@
 FROM adoptopenjdk/openjdk12:jdk-12.0.2_10-slim
 
-MAINTAINER Silvio Wangler (silvio.wangler@gmail.com)
+LABEL maintainer="silvio.wangler@gmail.com"
 
 ADD endless.sh /endless.sh
 
